@@ -49,7 +49,7 @@ def process_msg(msg):
         response = "Please type hi to get started."
     return response
 
-@app.route('/webhooks',methods = ['POST'])
+@app.route('/',methods = ['POST'])
 def webhooks():
     f = request.form
     msg = f['Body']
