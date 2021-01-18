@@ -49,7 +49,11 @@ def process_msg(msg):
         response = "Please type hi to get started."
     return response
 
-@app.route('/',methods = ['POST'])
+@app.route('/')
+def home():
+    return 'Please whatsapp hi to +1 (415) 523-8886'
+
+@app.route('/msg',methods = ['POST'])
 def webhooks():
     f = request.form
     msg = f['Body']
