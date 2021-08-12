@@ -6,9 +6,7 @@
 #4 write a function to send message to client
 #6 generate a response
 #7 check response in whatsapp
-# TWILIO_ACCOUNT_SID = AC1538f27a7380ca6f24797770163b47c2
-# TWILIO_AUTH_TOKEN = 835ddcf5a9873ab91b4d1d5d467e73e5
-# Api key = e4a4f96789c854d8690960f5ff1dd666
+
 
 
 
@@ -20,9 +18,10 @@ import os
 from marketstack import get_stock_price
 app = Flask(__name__)
 
-acc_id = "AC1538f27a7380ca6f24797770163b47c2"
-token = "835ddcf5a9873ab91b4d1d5d467e73e5"
-twilio_num = 'whatsapp:+14155238886'
+acc_id = # Twilio Account Id
+token = # Twilio Token
+twilio_num = #'whatsapp: Whatsapp number get from the Twilio.
+'whatsapp:+14155238886'
 
 
 client = Client(acc_id, token)
