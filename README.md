@@ -5,10 +5,11 @@ Try my Bot:-
  * Save the Whatsapp Number ('+14155238886', including the Country Code) on Your Phone.
  * In Whatsapp, type hi or hello to the Bot. then  send (" join southern-cage ", without any quotes a plain message)
  * All set, now you can ask the Bot for the Stock Price in the below-mentioned format :
+
             * sym:#Type the Company's stock symbol
-            Eg:- 
-            * sym:aapl  -- to know the stock price of Apple.
-            * sym:tsla --- to know the stock price of Tesla.
+            * Eg:- 
+               * sym:aapl  -- to know the stock price of Apple.
+               * sym:tsla --- to know the stock price of Tesla.
  * After sending the above message, You may know about the Current Price, High Price, Low Price and Some more Details of the Company you have mentioned.
 
 # Project Description:- 
