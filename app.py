@@ -21,7 +21,7 @@ app = Flask(__name__)
 acc_id = # Twilio Account Id
 token = # Twilio Token
 twilio_num = #'whatsapp: Whatsapp number get from the Twilio.
-'whatsapp:+14155238886'
+
 
 
 client = Client(acc_id, token)
